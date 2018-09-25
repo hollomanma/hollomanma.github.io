@@ -9,7 +9,7 @@ title: "Hello, welcome!"
 ---
 
 
-This is my website that I have made for my Data Science 1 (STT 3530) course at Appalachain State University. This website includes my interests, contact information, resumes, and a few fun pictures so you can get a better feel for what I'm all about.
+This is my website that I have made for my Data Science 1 (STT 3530) course at Appalachain State University. This website includes my interests, contact information, resumes, and a few projects that I have done in the past.
 
 ## Interests:
 * Math, Physics, and computing

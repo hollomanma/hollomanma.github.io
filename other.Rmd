@@ -7,7 +7,7 @@
 # Past Projects
 
 
-Here is a project I did In my Sports Analytics class (MAT 4010). It compares Michael Jordan to Lebron James. My results were that Michael Jordan is better than James.
+Here is a project I did In my Sports Analytics class (MAT 4010). It compares Michael Jordan to Lebron James. My results were that Michael Jordan is better than Lebron James.
 <iframe src="Project_1_Sports_Analytics.pdf" width="100%" height="700px">
 
 </iframe>
