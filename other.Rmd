@@ -1,0 +1,52 @@
+---
+# title: "projects"
+# author: "Audrey Holloman"
+# date: "9/18/2018"
+# output: html_document
+---
+# Past Projects
+
+
+Here is a project I did In my Sports Analytics class (MAT 4010). It compares Michael Jordan to Lebron James. My results were that Michael Jordan is better than James.
+<iframe src="Project_1_Sports_Analytics.pdf" width="100%" height="700px">
+
+</iframe>
+
+<hr>
+
+
+Here is an assignment I did for my Numerical Methods class (MAT 4310). This code looks at how to implement Guassian elimination to help solve difficult systems of linear equations using matrices and arrays in python. Shown below is the python code (you may copy and paste this code into a python environment) and then the results.
+<iframe src="Numerical Methods Guassian.pdf.txt" width="100%" height="700px">
+
+</iframe>
+
+<hr>
+<iframe src="Numerical Methods Guassian Results.png" width="100%" height="700px">
+
+</iframe>
+
+<hr>
+
+
+Here is my final project for my Numerical Methods class (MAT 4310). This project explains and derives Laguerre polynomials. It also explains how to use them when wanting to approximate integrals numerically through Gaussian quadrature.
+<iframe src="Laguerre Polynomials Final Project.pdf" width="100%" height="700px">
+
+</iframe>
+
+<hr>
+
+
+Here is my capstone proect on saddle surfaces that did for my Differential Geometry class (MAT 4140/4141).
+<iframe src="saddle-surface (2).pdf" width="100%" height="700px">
+
+</iframe>
+
+<hr>
+
+
+Here is a cool 3D volcano plot that I made :)
+```{r, echo = FALSE, message = FALSE}
+library(plotly)
+plot_ly(z = ~volcano) %>% add_surface()
+```
+

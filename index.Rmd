@@ -1,0 +1,28 @@
+---
+# title: "Home"
+# author: "Audrey Holloman"
+# date: "9/11/2018"
+# output: html_document
+---
+---
+title: "Hello, welcome!"
+---
+
+
+This is my website that I have made for my Data Science 1 (STT 3530) course at Appalachain State University. This website includes my interests, contact information, resumes, and a few fun pictures so you can get a better feel for what I'm all about.
+
+## Interests:
+* Math, Physics, and computing
+* hiking, snowboarding, and cooking
+* music:
+    * Flume (the all time best), ODESZA, Hermitude, Tame Impala, Red Hot Chili Peppers
+    * [The almighty Flume performing live :)](https://www.youtube.com/watch?v=oufPs0zPuyw)
+
+![](~/GitHub Repositories/hollomanma.github.io/friends.jpg)
+
+
+
+
+
+
+

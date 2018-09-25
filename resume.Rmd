@@ -1,0 +1,12 @@
+---
+# title: "Resume"
+# author: "Audrey Holloman"
+# date: "9/16/2018"
+# output: html_document
+---
+# These are my resumes
+
+![Work Resume](~/GitHub Repositories/hollomanma.github.io/WorkResumeForRStudio.png)
+
+![Academic Resume](~/GitHub Repositories/hollomanma.github.io/MyAcademicResume.png)
+

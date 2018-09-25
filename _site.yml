@@ -1,0 +1,14 @@
+name: "my-website"
+navbar:
+  title: "Audrey Holloman"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Resume"
+      href: resume.html
+    - text: "Projects"
+      href: other.html
+output:
+  html_document:
+    theme: flatly
+    highlight: textmate
