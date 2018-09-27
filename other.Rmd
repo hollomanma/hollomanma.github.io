@@ -28,6 +28,14 @@ Here is an assignment I did for my Numerical Methods class (MAT 4310). This code
 <hr>
 
 
+Here is a project I did for my Sports Analytics class (MAT 4010). It compares different players rushing statistics to the NFL combine data to predict players' rushing performance. These comparisons were made through decision trees.
+<iframe src="RushingProject2.pdf" width="100%" height="700px">
+
+</iframe>
+
+<hr>
+
+
 Here is my final project for my Numerical Methods class (MAT 4310). This project explains and derives Laguerre polynomials. It also explains how to use them when wanting to approximate integrals numerically through Gaussian quadrature.
 <iframe src="Laguerre Polynomials Final Project.pdf" width="100%" height="700px">
 
