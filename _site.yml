@@ -9,6 +9,10 @@ navbar:
       href: resume.html
     - text: "Projects"
       href: other.html
+  right:
+    - text: ""
+      icon: fa-github
+      href: https://github.com/hollomanma
 output:
   html_document:
     theme: flatly
