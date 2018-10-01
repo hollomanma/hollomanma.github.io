@@ -4,9 +4,49 @@
 # date: "9/16/2018"
 # output: html_document
 ---
-# These are my resumes
+# Resume
 
-![Work Resume](~/GitHub Repositories/hollomanma.github.io/WorkResumeForRStudio.png)
+A PDF copy of my work resume can be found [here](https://mathr.math.appstate.edu/s/da3f8694e30feafdfe0cc/files/GitHub%20Repositories/hollomanma.github.io/Resume%20w%20playwell.pdf).
 
-![Academic Resume](~/GitHub Repositories/hollomanma.github.io/MyAcademicResume.png)
+A PDF copy of my academic resume can be found [here](https://mathr.math.appstate.edu/s/da3f8694e30feafdfe0cc/files/GitHub%20Repositories/hollomanma.github.io/Academic%20Resume1%20(1).pdf).
+
+## Audrey Holloman
+155 A Clement Street - Boone, NC 28607 - hollomanma@appstate.edu - 919-436-0168
+
+### Education
+* BS in Mathematics - Physical Sciences (May 2019)
+    * Appalachian State University - Boone, NC
+        * Awarded Dean's list acknowledgment for the past four semesters
+
+### Experience
+#### Work
+* Engineering Instructor Assistant - PlayWell TEKnologies
+    * Taught kids engineering fundamentals, robotics, & problem solving skills through the medium of LEGO
+* Server/Caterer/Food Preparer - Blowing Rock Country Club
+    * Greeting, setup, breakdown, food preparation, customer serving, table turning, cleaning dishes
+* Server/Caterer/Food Preparer - Rocky Top Catering
+    * Greeting, setup, breakdown, food preparation, customer serving, table turning, cleaning dishes
+
+#### Computer Training
+##### Efficient in:
+* RStudio
+* Microsoft Excel
+* Maplesoft
+* Python
+* Gephi
+* MATLAB
+* Microsoft PowerPoint
+* Insight Maker
+* Microsoft Word
+* LaTeX
+
+### Organization Memberships
+* National Society of Leadership and Success
+    * Provides leadership skills, encourages the greater community by organizing action to the better world, and brings together success oriented individuals to help one another succeed
+* Chi Omega Sorority
+    * Provides personal integrity, friendship, leadership opportunities, sevice to others, intellectual pursuits, community & campus involvement, and personal & career development
+  
+### Community/Volunteer Service
+* Math Tutor - Wade Edwards Learning Lab
+    * Mentored and helped students with lower-level math topics
 
