@@ -44,7 +44,7 @@ Here is my final project for my Numerical Methods class (MAT 4310). This project
 <hr>
 
 
-Here is my capstone proect on saddle surfaces that did for my Differential Geometry class (MAT 4140/4141).
+Here is my capstone proect on saddle surfaces that did for my Differential Geometry Capstone class (MAT 4140/4141).
 <iframe src="saddle-surface (2).pdf" width="100%" height="700px">
 
 </iframe>
@@ -58,3 +58,6 @@ library(plotly)
 plot_ly(z = ~volcano) %>% add_surface()
 ```
 
+
+Here is a video I made with two other group members on the Schwarzschild Metric for my Differential Geometry class (MAT 4140).
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qFVxEH5UKzY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
