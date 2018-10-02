@@ -33,6 +33,7 @@ A PDF copy of my academic resume can be found [here](https://mathr.math.appstate
 * Microsoft Excel
 * Maplesoft
 * Python
+* Github
 * Gephi
 * MATLAB
 * Microsoft PowerPoint
