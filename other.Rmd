@@ -45,7 +45,7 @@ Here is my final project for my Numerical Methods class (MAT 4310). This project
 
 
 Here is a project I did in my Sports Analytics class (MAT 4010). It looks at how important hitting is to winning while comparing different stats of five teams to others using scatter and time series plots.
-<iframe src="Baseball Project.pdf" width="100%" height="700px">
+<iframe src="Baseball Project2.pdf" width="100%" height="700px">
 
 </iframe>
 
