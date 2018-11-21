@@ -44,6 +44,30 @@ Here is my final project for my Numerical Methods class (MAT 4310). This project
 <hr>
 
 
+Here is a project I did in my Sports Analytics class (MAT 4010). It looks at cluster plots to determine which teams have the best and most consistent winning streaks.
+<iframe src="Project 4 - Audrey Holloman (1).pdf" width="100%" height="700px">
+
+</iframe>
+
+<hr>
+
+
+Here is a project I did for my math biology class (MAT 3350). This project focuses on how deer population is affected by different predator versus prey relationships.
+<iframe src="Deer Population pdf.pdf" width="100%" height="700px">
+
+</iframe>
+
+<hr>
+
+
+Here is a project I did in my Sports Analytics class (MAT 4010). The task what to attempt to make a better college ranking system than the polls to predict bowl game winners. That meant our ranking system had to have above a 61% accuracy. We achieved a 65.85% accuracy for our ranking system.
+<iframe src="Project 5 - Audrey Holloman (1).pdf" width="100%" height="700px">
+
+</iframe>
+
+<hr>
+
+
 Here is a project I did in my Sports Analytics class (MAT 4010). It looks at how important hitting is to winning while comparing different stats of five teams to others using scatter and time series plots.
 <iframe src="Baseball Project2.pdf" width="100%" height="700px">
 
