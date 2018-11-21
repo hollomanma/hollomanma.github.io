@@ -12,9 +12,9 @@ title: "Hello, welcome!"
 This website includes my interests, contact information, resumes, and a few projects that I have done in the past.
 
 ## Interests:
-* Math, Physics, and computing
-* hiking, snowboarding, and cooking
-* music:
+* Math, physics, and computing
+* Hiking, snowboarding, and cooking
+* Music:
     * Flume (the all time best), ODESZA, Hermitude, Tame Impala, Red Hot Chili Peppers
     * [The almighty Flume performing live :)](https://www.youtube.com/watch?v=oufPs0zPuyw)
 
