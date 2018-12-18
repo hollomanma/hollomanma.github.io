@@ -6,6 +6,29 @@
 ---
 # Past Projects
 
+My first Data Science project is below.
+<iframe src="Data Science Project 1.pdf" width="100%" height="700px">
+
+</iframe>
+
+<hr>
+
+
+My Data Science final project is below.
+<iframe src="Data Science Final Project.pdf" width="100%" height="700px">
+
+</iframe>
+
+<hr>
+
+
+My Sports Analytics final project is below.
+<iframe src="Sports Analytics Final Project.pdf.htm" width="100%" height="700px">
+
+</iframe>
+
+<hr>
+
 
 Here is a project I did in my Sports Analytics class (MAT 4010). It compares Michael Jordan to Lebron James. My results were that Michael Jordan is better than Lebron James.
 <iframe src="Project_1_Sports_Analytics.pdf" width="100%" height="700px">
