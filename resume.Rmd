@@ -4,35 +4,44 @@
 # date: "9/16/2018"
 # output: html_document
 ---
-# Resume
+# **Resume**
 
 A PDF copy of my resume can be found [here](https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=a733220dfa&attid=0.1&permmsgid=msg-a:r-7701715002267623893&th=1690ba6b5fb65589&view=att&disp=inline&realattid=f_jsde1ghm0&saddbat=ANGjdJ82e1yMJ9NKxdQI5UwRb7jlUwE7ARx01hVsN8wFJRGEcCtMzCn6ELHAoQ4OfGv6AOhluSNo9-M8Jj6x2dqs3KG08HsPL-3YJm_5_nrkUtUTnpwlPvAucK8BEeREQZW3cv01HlUyLmhM5v9FUJIN6fE8NWl-Ym2EY_NKjmu51rz7KJo8RvFJFNs8ECT8YnKyX1wmw_YZwq_vd1bOoysHyvdL6eTRce9EkSQ-raa1zJRLykjJfIyR1pCgYxpXKDlaUl_VuqJoj2FpUcTAavI3jbbyezkw8e3MD42M-3Ex0H8xe0Pcvb6Bp51w7U6LCnbewIBG69AEcqCV33dM7YSmtcqTYLgnPW0x5yWrTInZpQSS8nuT8uCjXUtFwwLODsB20y9Q_00n0-DJcoMids56lzSbbehTNlFkUIHT5TRsKza7-OFiOn09zOXSPiMY2CB1m3xqJ0R1b56HYl8r0UPyd28KzbGcGRLOaMCcPbF13Pwa4rxfP-ZVEjHwXcli_a_iTSYaBm2mSdmwIImaBkWsJx8Xx6bnsDCXr2YYUSe7Vud8UbjqPJ0tOkIEpDeoRMRDD1lgX0yFbBgXst5S2MQHh2HeIBIZcye_Qf5r9qXCA15RbPzbIDAxvYLWyqX6vdUQVWPnAC7P8KXgOY7o3WfIPOC5j_TF1eqZTizTVA).
 
-
-## Audrey Holloman
-155 A Clement Street - Boone, NC 28607 - hollomanma@appstate.edu - 919-436-0168
-
 ### Education
-* BS in Mathematics - Physical Sciences (May 2019)
+
+* **BS in Mathematics - Physical Sciences** [Expected Graduation: May 2019]
     * Appalachian State University - Boone, NC
-        * Awarded Chancellor's list and Dean's list every semester
+        * Awarded Chancellor's list and Dean's list all semesters
 
 ### Experience
+
 #### Work
-* Engineering Instructor Assistant - PlayWell TEKnologies
-    * Taught kids engineering fundamentals, robotics, & problem solving skills through the medium of LEGO
-* Server/Caterer/Food Preparer - Blowing Rock Country Club
-    * Greeting, setup, breakdown, food preparation, customer serving, table turning, cleaning dishes
-* Server/Caterer/Food Preparer - Rocky Top Catering
-    * Greeting, setup, breakdown, food preparation, customer serving, table turning, cleaning dishes
+
+* **Mathematics Tutor** - Appalachian State Learning Lab [January 2019 - Present]
+    * Assist students in targeted subject areas through either individual or group tutoring. Help students understand the concepts of the math subject matter and be able to apply their understanding to any problem. Participate via ZOOM to provide video communications for students who need help after lab hours. Interact with faculty to develop tutoring material for students.
+
+* **Engineering Instructor Assistant** - PlayWell TEKnologies [May 2018 – August 2018]
+    * Co-taught sections of classes entitled Robotics in STEM and Adventures in STEM, which covered engineering fundamentals, robotics, and problem solving skills. Designed and implemented course curriculum and structure, assessed student progress, and provided guidance and assistance in comprehension of course material. Coordinated with regional managers to ensure curriculum and course material met class guidelines
+        * Recognized by students for an unyielding commitment to their continual growth and learning. Received numerous letters, notes, and gifts from students for efforts on their behalf.
+
+* **Server/Caterer/Food Preparer** - Blowing Rock Country Club [May 2017 – October 2017]
+    * Delivered friendly and efficient service to ensure a pleasant dining experience for all guests suggesting menu items and suggesting specialty drinks according to corporate specifications. Learned the menu for each function. Served and explained the major ingredients and preparation methods for each item to be served. Fostered repeat business and a clientele of regular patrons. Trained new servers on menu knowledge and steps of quality service.
+        * Always top 3 in server excellence chart and had many positive customer surveys. Asked to contribute to being apart of the managing staff for the following summer.
+
+* **Caterer** - Rocky Top Catering [November 2016 - January 2017]
+    * Provided teamwork to all teammates and promoted a sense of urgency for the guest and team members. Performed side work. Communicated with support crew and management. Monitored and maintained cleanliness, sanitation, and organizatin of the management team. Knowledge of how to set up and break down both a buffet and seated meal functions.
 
 #### Computer Training
+
 ##### Efficient in:
+
 * RStudio
 * Microsoft Excel
 * Maplesoft
 * Python
 * Github
+* SQL
 * Gephi
 * MATLAB
 * Microsoft PowerPoint
@@ -41,12 +50,37 @@ A PDF copy of my resume can be found [here](https://mail-attachment.googleuserco
 * LaTeX
 
 ### Organization Memberships
-* National Society of Leadership and Success
-    * Provides leadership skills, encourages the greater community by organizing action to the better world, and brings together success oriented individuals to help one another succeed
-* Chi Omega Sorority
+
+* **Chi Omega Sorority** [September 2015 – Present]
     * Provides personal integrity, friendship, leadership opportunities, service to others, intellectual pursuits, community & campus involvement, and personal & career development
+
+* **National Society of Leadership and Success** [September 2017 – Present]
+    * Provides leadership skills, encourages the greater community by organizing action to the better world, and brings together success oriented individuals to help one another succeed
+
+* **Math Club** [September 2015 – Present]
+    * Raise money for students to attend Mathematical Contest in Modeling through small events like bake sales in the math building
+
+* **Panda (Physics and Astronomy) Club** [January 2017 – Present]
+    * Build a community of student and profesionals interested in physics by educating the community & peers about physics/astronomy. Raise money by selling coffee to students in the physics building so we can host/manage different outreach events that we participate in.
   
-### Community/Volunteer Service
-* Math Tutor - Wade Edwards Learning Lab
+### Additional Involvement
+
+* Will attend DataFest 2019 data analysis competition at Duke University
+
+* **Hospitality House of Northwest North Carolina** [2015 - Present]
+    * Prepared and cooked meals for Chi Omega - Pi Kappa chapter's local philanthropy 5 times a semester
+    
+* **Chi Omega - Blue Tie Gala** [2018]
+    * Helped Organize and manage an auction where all proceeds went to Chi Omega's national philanthropy, Make-A-Wish
+        * Raised over $15,000
+
+* **Tom More 5K** [2017]
+    * Volunteered and participated in a run that raised money for Huntington's Disease Society of America
+        * Raised over $11,000
+
+* **Math Tutor - Wade Edwards** Learning Lab [2014 -2015]
     * Mentored and helped students with lower-level math topics
 
+### Contact
+
+155 A Clement Street - Boone, NC 28607 - hollomanma@appstate.edu - 919-436-0168
