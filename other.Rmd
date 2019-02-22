@@ -4,7 +4,8 @@
 # date: "9/18/2018"
 # output: html_document
 ---
-# Past Projects and Cool Stuff
+
+# Past Projects
 
 [Data Science 1 - Project 1](https://mail-attachment.googleusercontent.com/attachment/u/1/?ui=2&ik=1ee69daea0&attid=0.1&permmsgid=msg-a:r-8269432312518646286&th=169164c3a3f7869e&view=att&disp=inline&realattid=f_jsgcdvdy0&saddbat=ANGjdJ_FDZYFYwtVIEzcut1Wutcpm1zyw6LBXWxxh0rNwr2V8bhAsSB6FO4j6sY5Dgyeg7TJOaQJQpeS0ET6RJN0erB4l940Zcge2xoleozuIohHKa2KUWpLwtRFFRK8QRxUC_CPPlIg8Y414H8de8FXoYywvGslOMyozKpitJpHJiBVaA3YYYCHDrKhwRK45mqeD4NhfJd9pnlqe5Io-7cajd_DktoC_pMTRA2YpPQQkh4Q6Z0Q8qo6D3r9FeoOlSOdeUJKbH2WVwTui-bWKCAFHtquSDBQuAy9R-Z1ZRSSPrWW0RcGbImMIsxkeqgh72ujfjjRjNUKMkRtxuasV8RO5LL2McHwHq6xZuB9w4Dh-XmZnfzKNHi3CVJnZCBOTvm2vLPtVQhP6sivFu4eJGrsOOriKU2VCkOdNRv2qbjpjPMdBxavsFaSF4wWJVUtIuTJV7_dDD9sm6SDRE1TLQoqS9y-WHhWtf1iE_yNhsi00xPkCPHdaI0rVWDVdav2BY7tTL0JwvG70dZni4dmGEc2hLGi8u4iA5wN6YIu9nPEuupwVpgPIXqZ0bFRuKptce0nNvN-erUjh0eHxqQ587jyLYlqxrJgIjN0lV7WwfMh22J-Sd6NdyfhApZ-P4uWFXNxNXUyt8BXRld1v33jlsOyxv3kD7HI64XTOoA7wg)
 
@@ -26,7 +27,7 @@
 
 ```{r, echo = FALSE, message = FALSE}
 library(plotly)
-plot_ly(z = ~volcano) %>% add_surface()
+plot_ly(z = ~volcano) %>% add_surface() %>% layout(title = "Cool 3D Volcano")
 ```
 
 Differential Geometry - Schwarzschild Metric
