@@ -15,16 +15,15 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -99,40 +98,79 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 60px;
+  padding-top: 64px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 69px;
+  margin-top: -69px;
 }
-
 .section h2 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 69px;
+  margin-top: -69px;
 }
 .section h3 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 69px;
+  margin-top: -69px;
 }
 .section h4 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 69px;
+  margin-top: -69px;
 }
 .section h5 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 69px;
+  margin-top: -69px;
 }
 .section h6 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -154,18 +192,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -213,7 +310,7 @@ $(document).ready(function () {
 
 <div id="resume" class="section level1">
 <h1>Resume</h1>
-<p>A PDF copy of my resume can be found <a href="https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&amp;ik=1ee69daea0&amp;attid=0.1&amp;permmsgid=msg-a:r-8741169556623851564&amp;th=1673777fafa15c4f&amp;view=att&amp;disp=inline&amp;realattid=f_jorhhuve0&amp;saddbat=ANGjdJ_q9D6qj-sHhqa6NPhpGh-XlyyRPwBdHqXrHtjVGhF4JepxGr1wDH2kAK6qTltLOjBNHVcNgndI52ePz1BJHjGqPVfB--XtefQLPwFAqmJeeB9_OeiqtHVfGZGnO_wkBss4quG5eRelp7kZ84UhIK2ow7iGr785583JxxR0R9W3NiIpB2P-C6ipbSaAP-PR2u0xNHg1ZuUum8by6UpTaC4Iy39nx1GhQabAcZKocFuM96FARsiWGRdx6n_inAhYCi-ZE4ro2RQvSMhZhvrOeDJOXsQC3L645hPWLCMNUWrtMcViUuIi3q1RJLjW6fJXZh8lsATMGtHwElwgvHRDFHd25f5WZQT1cw0dyPio417DFRMbUhMDtt-Seb136QdTrXTO79AQTcVgyEsjhKaTuiURGxwRMWmBNMCD2a4TSzp_aM-tjwCvrTQRiTMv6KHzdiWaiG-6CbGSlbcWIPmtlj-kPK1mDiZPb9-FnT598p04Wtt48LdSQ8h0q2EGACW6h-Gvg-kgLMrMD9hGlkZouaCgkXvFX1M_gxSC5TDwU_kCMJJk558CJrOowcnpf65My7YNyG1ml1F9lMdmy2czjY8JDHkkCbUjeQGQsNrRwiJP58yDge5sNfIMUXLWZlO19pBp5W-VN_j0lsCZ">here</a>.</p>
+<p>A PDF copy of my resume can be found <a href="https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&amp;ik=a733220dfa&amp;attid=0.1&amp;permmsgid=msg-a:r-7701715002267623893&amp;th=1690ba6b5fb65589&amp;view=att&amp;disp=inline&amp;realattid=f_jsde1ghm0&amp;saddbat=ANGjdJ82e1yMJ9NKxdQI5UwRb7jlUwE7ARx01hVsN8wFJRGEcCtMzCn6ELHAoQ4OfGv6AOhluSNo9-M8Jj6x2dqs3KG08HsPL-3YJm_5_nrkUtUTnpwlPvAucK8BEeREQZW3cv01HlUyLmhM5v9FUJIN6fE8NWl-Ym2EY_NKjmu51rz7KJo8RvFJFNs8ECT8YnKyX1wmw_YZwq_vd1bOoysHyvdL6eTRce9EkSQ-raa1zJRLykjJfIyR1pCgYxpXKDlaUl_VuqJoj2FpUcTAavI3jbbyezkw8e3MD42M-3Ex0H8xe0Pcvb6Bp51w7U6LCnbewIBG69AEcqCV33dM7YSmtcqTYLgnPW0x5yWrTInZpQSS8nuT8uCjXUtFwwLODsB20y9Q_00n0-DJcoMids56lzSbbehTNlFkUIHT5TRsKza7-OFiOn09zOXSPiMY2CB1m3xqJ0R1b56HYl8r0UPyd28KzbGcGRLOaMCcPbF13Pwa4rxfP-ZVEjHwXcli_a_iTSYaBm2mSdmwIImaBkWsJx8Xx6bnsDCXr2YYUSe7Vud8UbjqPJ0tOkIEpDeoRMRDD1lgX0yFbBgXst5S2MQHh2HeIBIZcye_Qf5r9qXCA15RbPzbIDAxvYLWyqX6vdUQVWPnAC7P8KXgOY7o3WfIPOC5j_TF1eqZTizTVA">here</a>.</p>
 <div id="audrey-holloman" class="section level2">
 <h2>Audrey Holloman</h2>
 <p>155 A Clement Street - Boone, NC 28607 - <a href="mailto:hollomanma@appstate.edu">hollomanma@appstate.edu</a> - 919-436-0168</p>
@@ -224,7 +321,7 @@ $(document).ready(function () {
 <ul>
 <li>Appalachian State University - Boone, NC
 <ul>
-<li>Awarded Dean’s list acknowledgment for the past four semesters</li>
+<li>Awarded Chancellor’s list and Dean’s list every semester</li>
 </ul></li>
 </ul></li>
 </ul>

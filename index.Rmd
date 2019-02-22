@@ -1,24 +1,13 @@
 ---
-# title: "Home"
-# author: "Audrey Holloman"
-# date: "9/11/2018"
-# output: html_document
----
----
-title: "Hello, welcome!"
 ---
 
+<link rel="stylesheet" href="styles.css" type="text/css">
 
-This website includes my interests, contact information, resumes, and a few projects that I have done in the past.
+<img src="audreypicture.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
-## Interests:
-* Math, physics, and computing
-* Hiking, snowboarding, and cooking
-* Music:
-    * Flume (the all time best), ODESZA, Hermitude, Tame Impala, Red Hot Chili Peppers
-    * [The almighty Flume performing live :)](https://www.youtube.com/watch?v=oufPs0zPuyw)
+My interest is in using data as a tool to answer research questions and test hypotheses. Currently, I investigate statistical and analytical tools at Appalachian State University. I am an undergraduate student studying in Mathematics with a Physics concentration. Through my time at App State, I developed a passion for programming and analyzing data. As a senior, I am looking for opportunities that will enable me to grow and utilize my experience and skills with mathematics, statistics and programming.
 
-![](~/GitHub Repositories/hollomanma.github.io/friends.jpg)
+
 
 
 
