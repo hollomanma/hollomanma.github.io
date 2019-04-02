@@ -6,7 +6,7 @@
 
 <img src="audreypicture.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
-<font size = "4"> My interest is in using data as a tool to answer research questions and test hypotheses. Currently, I investigate statistical and analytical tools at Appalachian State University. I am an undergraduate student studying in Mathematics with a Physics concentration. Through my time at App State, I developed a passion for programming and analyzing data. As a senior, I am looking for opportunities that will enable me to grow and utilize my experience and skills with mathematics, statistics and programming. </font>
+<font size = "4"> My interest is in using data as a tool to answer research questions and test hypotheses. Currently, I investigate statistical and analytical tools at Appalachian State University. I am an undergraduate student studying in Mathematics with a Physics concentration and a minor in Statistics. Through my time at App State, I developed a passion for programming and analyzing data. As a senior, I am looking for opportunities that will enable me to grow and utilize my experience and skills with mathematics, statistics and programming. </font>
 
 ### Additional Interests
  
