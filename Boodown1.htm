@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Correlation and Regression</title>
+  <meta name="description" content="This is starter code for using the bookdown package to write a book. The output format for this example is bookdown::gitbook.">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+
+  <meta property="og:title" content="Correlation and Regression" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is starter code for using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Correlation and Regression" />
+  
+  <meta name="twitter:description" content="This is starter code for using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  
+
+<meta name="author" content="Audrey Holloman">
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+
+<link rel="next" href="visualizing-two-variables.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+<script src="libs/htmlwidgets-1.3/htmlwidgets.js"></script>
+<link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding-0.5/datatables.js"></script>
+<link href="libs/dt-core-1.10.16/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.10.16/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.10.16/js/jquery.dataTables.min.js"></script>
+<link href="libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
+
+
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Correlation and Regression</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Prerequisites</a></li>
+<li class="chapter" data-level="2" data-path="visualizing-two-variables.html"><a href="visualizing-two-variables.html"><i class="fa fa-check"></i><b>2</b> Visualizing two variables</a><ul>
+<li class="chapter" data-level="2.1" data-path="visualizing-two-variables.html"><a href="visualizing-two-variables.html#scatterplots"><i class="fa fa-check"></i><b>2.1</b> Scatterplots</a><ul>
+<li class="chapter" data-level="" data-path="visualizing-two-variables.html"><a href="visualizing-two-variables.html#exercise"><i class="fa fa-check"></i>Exercise</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="visualizing-two-variables.html"><a href="visualizing-two-variables.html#boxplots-as-discretizedconditioned-scatterplots"><i class="fa fa-check"></i><b>2.2</b> Boxplots as discretized/conditioned scatterplots</a><ul>
+<li class="chapter" data-level="" data-path="visualizing-two-variables.html"><a href="visualizing-two-variables.html#exercise-1"><i class="fa fa-check"></i>Exercise</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="visualizing-two-variables.html"><a href="visualizing-two-variables.html#creating-scatterplots"><i class="fa fa-check"></i><b>2.3</b> Creating scatterplots</a><ul>
+<li class="chapter" data-level="" data-path="visualizing-two-variables.html"><a href="visualizing-two-variables.html#exercise-2"><i class="fa fa-check"></i>Exercise</a></li>
+<li class="chapter" data-level="" data-path="visualizing-two-variables.html"><a href="visualizing-two-variables.html#characterizing-scatterplots"><i class="fa fa-check"></i>Characterizing scatterplots</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="visualizing-two-variables.html"><a href="visualizing-two-variables.html#transformations"><i class="fa fa-check"></i><b>2.4</b> Transformations</a><ul>
+<li class="chapter" data-level="" data-path="visualizing-two-variables.html"><a href="visualizing-two-variables.html#exercise-3"><i class="fa fa-check"></i>Exercise</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="visualizing-two-variables.html"><a href="visualizing-two-variables.html#identifying-outliers"><i class="fa fa-check"></i><b>2.5</b> Identifying outliers</a><ul>
+<li class="chapter" data-level="" data-path="visualizing-two-variables.html"><a href="visualizing-two-variables.html#exercise-4"><i class="fa fa-check"></i>Exercise</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="correlation.html"><a href="correlation.html"><i class="fa fa-check"></i><b>3</b> Correlation</a><ul>
+<li class="chapter" data-level="" data-path="correlation.html"><a href="correlation.html#understanding-correlation-scale"><i class="fa fa-check"></i>Understanding correlation scale</a></li>
+<li class="chapter" data-level="" data-path="correlation.html"><a href="correlation.html#understanding-correlation-sign"><i class="fa fa-check"></i>Understanding correlation sign</a></li>
+<li class="chapter" data-level="3.1" data-path="correlation.html"><a href="correlation.html#computing-correlation"><i class="fa fa-check"></i><b>3.1</b> Computing correlation</a><ul>
+<li class="chapter" data-level="" data-path="correlation.html"><a href="correlation.html#exercise-5"><i class="fa fa-check"></i>Exercise</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="correlation.html"><a href="correlation.html#exploring-anscombe"><i class="fa fa-check"></i><b>3.2</b> Exploring Anscombe</a><ul>
+<li class="chapter" data-level="" data-path="correlation.html"><a href="correlation.html#exercise-6"><i class="fa fa-check"></i>Exercise</a></li>
+<li class="chapter" data-level="" data-path="correlation.html"><a href="correlation.html#perception-of-correlation"><i class="fa fa-check"></i>Perception of correlation</a></li>
+<li class="chapter" data-level="" data-path="correlation.html"><a href="correlation.html#perception-of-correlation-2"><i class="fa fa-check"></i>Perception of correlation (2)</a></li>
+<li class="chapter" data-level="" data-path="correlation.html"><a href="correlation.html#exercise-7"><i class="fa fa-check"></i>Exercise</a></li>
+<li class="chapter" data-level="" data-path="correlation.html"><a href="correlation.html#interpreting-correlation-in-context"><i class="fa fa-check"></i>Interpreting correlation in context</a></li>
+<li class="chapter" data-level="" data-path="correlation.html"><a href="correlation.html#correlation-and-causation"><i class="fa fa-check"></i>Correlation and causation</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="correlation.html"><a href="correlation.html#spurious-correlation-in-random-data"><i class="fa fa-check"></i><b>3.3</b> Spurious correlation in random data</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="simple-linear-regression.html"><a href="simple-linear-regression.html"><i class="fa fa-check"></i><b>4</b> Simple linear regression</a><ul>
+<li class="chapter" data-level="4.1" data-path="simple-linear-regression.html"><a href="simple-linear-regression.html#the-best-fit-line"><i class="fa fa-check"></i><b>4.1</b> The “best fit” line</a><ul>
+<li class="chapter" data-level="" data-path="simple-linear-regression.html"><a href="simple-linear-regression.html#exercise-8"><i class="fa fa-check"></i>Exercise</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="simple-linear-regression.html"><a href="simple-linear-regression.html#uniqueness-of-least-squares-regression-line"><i class="fa fa-check"></i><b>4.2</b> Uniqueness of least squares regression line</a><ul>
+<li class="chapter" data-level="" data-path="simple-linear-regression.html"><a href="simple-linear-regression.html#regression-model-terminology"><i class="fa fa-check"></i>Regression model terminology</a></li>
+<li class="chapter" data-level="4.2.1" data-path="simple-linear-regression.html"><a href="simple-linear-regression.html#regression-model-output-terminology"><i class="fa fa-check"></i><b>4.2.1</b> Regression model output terminology</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="simple-linear-regression.html"><a href="simple-linear-regression.html#fitting-a-linear-model-by-hand"><i class="fa fa-check"></i><b>4.3</b> Fitting a linear model “by hand”</a></li>
+<li class="chapter" data-level="4.4" data-path="simple-linear-regression.html"><a href="simple-linear-regression.html#regression-to-the-mean"><i class="fa fa-check"></i><b>4.4</b> Regression to the mean</a><ul>
+<li class="chapter" data-level="" data-path="simple-linear-regression.html"><a href="simple-linear-regression.html#exercise-9"><i class="fa fa-check"></i>Exercise</a></li>
+<li class="chapter" data-level="" data-path="simple-linear-regression.html"><a href="simple-linear-regression.html#regression-in-the-parlance-of-our-time"><i class="fa fa-check"></i>“Regression” in the parlance of our time</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="interpreting-regression-models.html"><a href="interpreting-regression-models.html"><i class="fa fa-check"></i><b>5</b> Interpreting regression models</a><ul>
+<li class="chapter" data-level="" data-path="interpreting-regression-models.html"><a href="interpreting-regression-models.html#interpretation-of-coefficients"><i class="fa fa-check"></i>Interpretation of coefficients</a></li>
+<li class="chapter" data-level="" data-path="interpreting-regression-models.html"><a href="interpreting-regression-models.html#interpretation-in-context"><i class="fa fa-check"></i>Interpretation in context</a></li>
+<li class="chapter" data-level="5.1" data-path="interpreting-regression-models.html"><a href="interpreting-regression-models.html#fitting-simple-linear-models"><i class="fa fa-check"></i><b>5.1</b> Fitting simple linear models</a><ul>
+<li class="chapter" data-level="" data-path="interpreting-regression-models.html"><a href="interpreting-regression-models.html#exercise-10"><i class="fa fa-check"></i>Exercise</a></li>
+<li class="chapter" data-level="" data-path="interpreting-regression-models.html"><a href="interpreting-regression-models.html#units-and-scale"><i class="fa fa-check"></i>Units and scale</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="interpreting-regression-models.html"><a href="interpreting-regression-models.html#the-lm-summary-output"><i class="fa fa-check"></i><b>5.2</b> The lm summary output</a><ul>
+<li class="chapter" data-level="" data-path="interpreting-regression-models.html"><a href="interpreting-regression-models.html#exercise-11"><i class="fa fa-check"></i>Exercise</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="interpreting-regression-models.html"><a href="interpreting-regression-models.html#fitted-values-and-residuals"><i class="fa fa-check"></i><b>5.3</b> Fitted values and residuals</a><ul>
+<li class="chapter" data-level="" data-path="interpreting-regression-models.html"><a href="interpreting-regression-models.html#exercise-12"><i class="fa fa-check"></i>Exercise</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="interpreting-regression-models.html"><a href="interpreting-regression-models.html#tidying-your-linear-model"><i class="fa fa-check"></i><b>5.4</b> Tidying your linear model</a><ul>
+<li class="chapter" data-level="" data-path="interpreting-regression-models.html"><a href="interpreting-regression-models.html#exercise-13"><i class="fa fa-check"></i>Exercise</a></li>
+</ul></li>
+<li class="chapter" data-level="5.5" data-path="interpreting-regression-models.html"><a href="interpreting-regression-models.html#making-predictions"><i class="fa fa-check"></i><b>5.5</b> Making predictions</a><ul>
+<li class="chapter" data-level="" data-path="interpreting-regression-models.html"><a href="interpreting-regression-models.html#exercise-14"><i class="fa fa-check"></i>Exercise</a></li>
+</ul></li>
+<li class="chapter" data-level="5.6" data-path="interpreting-regression-models.html"><a href="interpreting-regression-models.html#adding-a-regression-line-to-a-plot-manually"><i class="fa fa-check"></i><b>5.6</b> Adding a regression line to a plot manually</a><ul>
+<li class="chapter" data-level="" data-path="interpreting-regression-models.html"><a href="interpreting-regression-models.html#exercise-15"><i class="fa fa-check"></i>Exercise</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="model-fit.html"><a href="model-fit.html"><i class="fa fa-check"></i><b>6</b> Model Fit</a><ul>
+<li class="chapter" data-level="" data-path="model-fit.html"><a href="model-fit.html#rmse"><i class="fa fa-check"></i>RMSE</a></li>
+<li class="chapter" data-level="6.1" data-path="model-fit.html"><a href="model-fit.html#standard-error-of-residuals"><i class="fa fa-check"></i><b>6.1</b> Standard error of residuals</a><ul>
+<li class="chapter" data-level="" data-path="model-fit.html"><a href="model-fit.html#exercise-16"><i class="fa fa-check"></i>Exercise</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="model-fit.html"><a href="model-fit.html#assessing-simple-linear-model-fit"><i class="fa fa-check"></i><b>6.2</b> Assessing simple linear model fit</a><ul>
+<li><a href="model-fit.html#interpretation-of-r2">Interpretation of <span class="math inline">\(R^2\)</span></a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="model-fit.html"><a href="model-fit.html#linear-vs.average"><i class="fa fa-check"></i><b>6.3</b> Linear vs. average</a><ul>
+<li class="chapter" data-level="" data-path="model-fit.html"><a href="model-fit.html#exercise-17"><i class="fa fa-check"></i>Exercise</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="model-fit.html"><a href="model-fit.html#leverage"><i class="fa fa-check"></i><b>6.4</b> Leverage</a><ul>
+<li class="chapter" data-level="" data-path="model-fit.html"><a href="model-fit.html#exercise-18"><i class="fa fa-check"></i>Exercise</a></li>
+</ul></li>
+<li class="chapter" data-level="6.5" data-path="model-fit.html"><a href="model-fit.html#influence"><i class="fa fa-check"></i><b>6.5</b> Influence</a></li>
+<li class="chapter" data-level="6.6" data-path="model-fit.html"><a href="model-fit.html#removing-outliers"><i class="fa fa-check"></i><b>6.6</b> Removing outliers</a></li>
+<li class="chapter" data-level="6.7" data-path="model-fit.html"><a href="model-fit.html#high-leverage-points"><i class="fa fa-check"></i><b>6.7</b> High leverage points</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./"><a href="https://www.datacamp.com/courses/correlation-and-regression">Correlation and Regression</a></a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title"><a href="https://www.datacamp.com/courses/correlation-and-regression">Correlation and Regression</a></h1>
+<p class="author"><em><a href="https://hollomanma.github.io/">Audrey Holloman</a></em></p>
+<p class="date"><em>Last compiled: Feb 02, 2019</em></p>
+</div>
+<div id="prerequisites" class="section level1">
+<h1><span class="header-section-number">Chapter 1</span> Prerequisites</h1>
+<p>This material is from the <a href="https://www.datacamp.com">DataCamp</a> course <a href="https://www.datacamp.com/courses/correlation-and-regression">Correlation and Regression</a> by Ben Baumer. Before using this material, the reader should have completed and be comfortable with the material in the DataCamp modules <a href="https://www.datacamp.com/courses/free-introduction-to-r">Introduction to R</a>.</p>
+<p>Reminder to self: each <code>*.Rmd</code> file contains one and only one chapter, and a chapter is defined by the first-level heading <code>#</code>.</p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="visualizing-two-variables.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["CorrRegSC.pdf", "CorrRegSC.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
