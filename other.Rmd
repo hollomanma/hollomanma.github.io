@@ -35,6 +35,8 @@
 
 [Supervised Learning in R: Case Studies - Data Science 2](bookdown4.pdf)
 
+[Ideas for a past project - Data Science 2](ideas.htm)
+
 ```{r, echo = FALSE, message = FALSE}
 library(plotly)
 plot_ly(z = ~volcano) %>% add_surface() %>% layout(title = "Cool 3D Volcano")
