@@ -27,15 +27,17 @@
 
 [Differential Geometry Capstone - Saddle Surfaces](saddle-surface (2).pdf)
 
-[Correlation and Regression Bookdown - Data Science 2](bookdown1.pdf)
+[Data Science 2 - Correlation and Regression Bookdown](bookdown1.pdf)
 
-[Multiple and Logistic Regression - Data Science 2](bookdown2.pdf)
+[Data Science 2 - Multiple and Logistic Regression](bookdown2.pdf)
 
-[Machine Learning Toolbox - Data Science 2](bookdown3.pdf)
+[Data Science 2 - Machine Learning Toolbox](bookdown3.pdf)
 
-[Supervised Learning in R: Case Studies - Data Science 2](bookdown4.pdf)
+[Data Science 2 - Supervised Learning in R: Case Studies](bookdown4.pdf)
 
-[Ideas for a past project - Data Science 2](ideas.htm)
+[Data Science 2 - Ideas for a past project](ideas.htm)
+
+[Data Science 2 - Final Project](GuidedExercises.html)
 
 ```{r, echo = FALSE, message = FALSE}
 library(plotly)
