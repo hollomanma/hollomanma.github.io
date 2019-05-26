@@ -6,7 +6,7 @@
 ---
 # **Resume**
 
-A PDF copy of my resume can be found [here](Holloman Resume.pdf).
+A PDF copy of my resume can be found [here](maholloman resume.pdf).
 
 ### Education
 
@@ -18,12 +18,15 @@ A PDF copy of my resume can be found [here](Holloman Resume.pdf).
 
 #### Work
 
+* **Data Science Teaching Assistant** - Thinkful [April 2019 - Present]
+    * Foster best practices with students as they work to build skills in performing descriptive and exploratory analysis, predictive modeling, machine learning, simulations, text analytics, and interactive data visualization. Work with program managers to provide detailed feedback on student success.
+
+* **Engineering Instructor** - PlayWell TEKnologies [May 2018 – Present]
+    * Teach sections of classes entitled Robotics in STEM and Adventures in STEM, which cover engineering fundamentals, robotics, and problem solving skills. Design and implement course curriculum and structure, assess student progress, and provide guidance and assistance in comprehension of course material. Coordinate with regional managers to ensure curriculum and course material meet class guidelines.
+        * Recognized by students for an unyielding commitment to their continual growth and learning. Received numerous letters, notes, and gifts from students for efforts on their behalf.
+
 * **Mathematics and Data Analytics Tutor** - Appalachian State Learning Lab [January 2019 - May 2019]
     * Assisted students in targeted subject areas through either individual or group tutoring. Helped students understand the concepts of the math subject matter and be able to apply their understanding to any problem. Participated via ZOOM to provide video communications for students who needed help after lab hours. Interacted with faculty to develop tutoring material for students.
-
-* **Engineering Instructor Assistant** - PlayWell TEKnologies [May 2018 – August 2018]
-    * Co-taught sections of classes entitled Robotics in STEM and Adventures in STEM, which covered engineering fundamentals, robotics, and problem solving skills. Designed and implemented course curriculum and structure, assessed student progress, and provided guidance and assistance in comprehension of course material. Coordinated with regional managers to ensure curriculum and course material met class guidelines
-        * Recognized by students for an unyielding commitment to their continual growth and learning. Received numerous letters, notes, and gifts from students for efforts on their behalf.
 
 * **Server/Caterer/Food Preparer** - Blowing Rock Country Club [May 2017 – October 2017]
     * Delivered friendly and efficient service to ensure a pleasant dining experience for all guests suggesting menu items and suggesting specialty drinks according to corporate specifications. Learned the menu for each function. Served and explained the major ingredients and preparation methods for each item to be served. Fostered repeat business and a clientele of regular patrons. Trained new servers on menu knowledge and steps of quality service.
