@@ -18,6 +18,8 @@ A PDF copy of my resume can be found [here](maholloman resume.pdf).
 
 #### Work
 
+* **Environmental Health Safety & Human Performance Data Scientist Co-op** - Biogen [July 2019 - Present]
+
 * **Data Science Teaching Assistant** - Thinkful [April 2019 - Present]
     * Foster best practices with students as they work to build skills in performing descriptive and exploratory analysis, predictive modeling, machine learning, simulations, text analytics, and interactive data visualization. Work with program managers to provide detailed feedback on student success.
 
