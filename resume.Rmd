@@ -6,7 +6,7 @@
 ---
 # **Resume**
 
-A PDF copy of my resume can be found [here](maholloman resume - biogen.pdf).
+A PDF copy of my resume can be found [here](resume.pdf).
 
 ### Education
 
@@ -19,7 +19,7 @@ A PDF copy of my resume can be found [here](maholloman resume - biogen.pdf).
 #### Work
 
 * **Environmental Health Safety & Human Performance Data Scientist Co-op** - Biogen [July 2019 - Present]
-    * Develop spreadsheets for metric analysis to include statistical tables using Tableau related to investigation process and CAPA effectiveness. Own and develop Human Performance data from DevonWay while performing machine learning and data trending analysis. Assist EHS team by data mining, trending data, and running reports from the Serious Injuries or Fatalities Assessment. Compile and generate Excel spreadsheets from TrackWise capturing key data related to team metrics. Perform gap analysis for EHS Industrial Hygiene against the Safety Data Sheet. Assist Human Performance director with department communications using collaboration tools like SharePoint.
+    * Develop spreadsheets for metric analysis to include statistical tables using Tableau related to investigation process and CAPA effectiveness. Own and develop Human Performance data from DevonWay while performing machine learning and data trending analysis. Assist EHS team by data mining, trending data, and running reports from the Serious Injuries or Fatalities Assessment. Compile and generate Excel spreadsheets from TrackWise capturing key data related to team metrics. Perform gap analysis for EHS Industrial Hygiene against the Safety Data Sheet. Contribute to investigations using statistical analysis on batch data parameters. Assist Human Performance director with department communications using collaboration tools like SharePoint to embed Power BI dashboards related to team performance.
 
 * **Data Science Teaching Assistant** - Thinkful [April 2019 - Present]
     * Foster best practices with students as they work to build skills in performing descriptive and exploratory analysis, predictive modeling, machine learning, simulations, text analytics, and interactive data visualization. Work with program managers to provide detailed feedback on student success.
@@ -54,6 +54,11 @@ A PDF copy of my resume can be found [here](maholloman resume - biogen.pdf).
 * Insight Maker
 * Microsoft Word
 * LaTeX
+* Tableau
+* Power BI
+* TrackWise
+* Jupyter Notebook
+* DevonWay
 
 ### Organization Memberships
 
@@ -74,6 +79,10 @@ A PDF copy of my resume can be found [here](maholloman resume - biogen.pdf).
 * Team finalist at DataFest 2019 data analysis competition at Duke University
 
 * Received [certificate](cGMP BTEC.pdf) of	training	in	cGMP	Biomanufacturing Operations
+
+* Completed Kepner-Tregoe Problem Analysis Training and Workshop
+
+* Member of Advanced Data Analytics and Machine Learning Community of Practice at Biogen
 
 * **Hospitality House of Northwest North Carolina** [2015 - May 2019]
     * Prepared and cooked meals for Chi Omega - Pi Kappa chapter's local philanthropy 5 times a semester
